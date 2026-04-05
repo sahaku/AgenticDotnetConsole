@@ -39,4 +39,11 @@ You type a natural‑language instruction such as:
   Passes arguments
   Streams output back to the user
 4. Tools
-Each tool performs a real action:
+	Each tool performs a real action
+
+# 🎯 Summary
+This project demonstrates a fully functional agentic .NET development environment powered by LLM‑driven planning and tool execution. It is ideal for:
+Autonomous code generation
+Rapid prototyping
+Teaching agentic architectures
+Experimenting with LLM‑powered developer tools
