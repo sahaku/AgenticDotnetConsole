@@ -26,27 +26,17 @@ The system follows a clear pipeline:
 1. User Input
 You type a natural‑language instruction such as:
 2. Planner
-The planner converts the instruction into a JSON plan using strict rules:
-
-Create project if missing
-
-Write files
-
-Build
-
-Run
-
-Avoid unnecessary read/write
-
-Avoid mixing computation with code generation
+  The planner converts the instruction into a JSON plan using strict rules:
+  Create project if missing
+  Write files
+  Build 
+  Run
+  Avoid unnecessary read/write
+  Avoid mixing computation with code generation
 3. Orchestrator
-Executes each step in order:
-
-Calls the correct tool
-
-Passes arguments
-
-Streams output back to the user
-
+  Executes each step in order:
+  Calls the correct tool
+  Passes arguments
+  Streams output back to the user
 4. Tools
 Each tool performs a real action:
