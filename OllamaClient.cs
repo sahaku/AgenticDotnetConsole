@@ -139,9 +139,6 @@ namespace AgenticDotnetConsole
                 Return ONLY the JSON array. No commentary.
                 """;
 
-
-
-
             var request = new
             {
                 model = "llama3.1",
